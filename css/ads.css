@@ -1,0 +1,424 @@
+﻿ /*common*/
+ .floatL{
+     float: left;
+ }
+ .floatR{
+     float: right;
+ }
+ .hidden{
+    display: none;
+ }
+ /*common*/
+
+#ads-wrap {
+    width: 640px;
+    height: 360px;
+    position: relative;
+    background: #0F1317;
+
+    display: none;
+}
+
+.ads-content {
+    width: 80%;
+    height: 85.185185%;
+    margin: 0 auto;
+    padding-top: 23px;
+}
+
+
+/*START ads-content-left*/
+
+.ads-content-left {
+    width: 168px;
+    padding-right: 4px;
+}
+
+.ads-content-left ul li {
+}
+
+.ads-hr {
+    width: 118px;
+    height: 5px;
+    margin: 3px 9px 0;
+    border-bottom: 1px solid #232324;
+
+    margin-left: 30px;
+}
+
+.ads-ls {
+    margin-top: 18px;
+    position: relative;
+}
+
+.ads-icon-logo {
+    width: 62px;
+    height: 24px;
+    background: url("../i/ads/icon-logo-ford.png");
+    background-size: 100% 100%;
+    display: inline-block;
+}
+
+.ads-icon-star {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    margin-top: -6px;
+    width: 13px;
+    height: 12px;
+    background: url("../i/ads/icon-star.png");
+    background-size: 100% 100%;
+    display: inline-block;
+}
+
+.ads-content-left p:first-of-type {
+    font-size: 11px;
+    line-height: 18px;
+    color: #ffffff;
+}
+
+.ads-content-left p:last-of-type {
+    font-size: 7px;
+    line-height: 14px;
+    color: #cdcdcd;
+}
+
+.ads-btn button {
+    font-size: 7px;
+    margin-top: 13px;
+}
+
+.ads-banner {
+}
+
+.ads-banner img {
+    width: 100%;
+}
+
+.ads-options {
+    font-size: 8px;
+    color: #ffffff;
+    position: absolute;
+    bottom: 30px;
+}
+
+.ads-options ul {
+    margin-top: 2px;
+    height: 19px;
+    line-height: 19px;
+    background: #1b1b1b;
+    padding-left: 9px;
+}
+
+.ads-options ul li {
+    float: left;
+    display: block;
+    margin-right: 22px;
+}
+
+.ads-options ul li:first-of-type {
+    margin-right: 11px;
+}
+
+.ads-options ul li div img {
+    width: 100%;
+}
+
+.ads-options ul li:last-child {
+    margin-right: 15px;
+}
+
+
+/*START video*/
+
+.ads-next-tip {
+    position: absolute;
+    top: 157px;
+    right: 0;
+    width: 200px;
+    height: 52px;
+    background: url(../i/ads/ads-next.png);
+    background-size: 100% 100%;
+    display: none;
+}
+
+
+/*END video*/
+
+
+/*A button*/
+
+.ads-options ul li div {
+    display: inline-block;
+    margin-right: 9px;
+}
+
+
+/*END ads-content-left*/
+
+
+/*START ads-content-right*/
+
+.ads-content-right {
+    width: 339px;
+}
+
+/*END ads-content-right*/
+
+
+/*START when user press B button*/
+
+.ads-banner-change {
+    display: none;
+}
+
+.ads-contentL-change {
+    width: 100%;
+}
+
+.ads-content-change {
+    padding-top: 0;
+}
+
+.ads-video-change {
+    width: 100%;
+}
+
+.ads-text-change {
+    position: absolute;
+    left: 150px;
+    bottom: 75px;
+    width: 400px !important;
+}
+
+.ads-btn-change {
+    margin-left: 86px;
+    margin-top: 6px;
+}
+
+.ads-close-change {
+    position: absolute;
+    top: 23px;
+}
+
+
+.ads-icon-close-change{
+    color: #ffffff !important;
+    border-color: #ffffff !important;
+}
+.ads-icon-close-change::before,
+.ads-icon-close-change::after{
+    background: #ffffff !important;
+}
+
+/*END when press button B*/
+
+
+/*START when press button D*/
+/*thumbnail*/
+#ads-subway{
+    display: none;
+}
+.ads-thumb{
+    
+}
+.ads-thumb ul{
+    float: right;
+}
+.ads-thumb ul li{
+    float: left;
+    width: 83px;
+    margin-left: 2px;
+}
+.ads-thumb ul li img{
+    width: 100%;
+}
+
+
+/*introduce*/
+#ads-subway{
+    color: #cdcdcd;
+}
+#ads-subway ul li{
+    list-style: inside disc;
+    font-size: 7px;
+    line-height: 14px;
+}
+#ads-subway .ads-text span{
+    font-size: 6px;
+    line-height: 10px;
+    display: block;
+}
+
+/*"or order on-the-go with OUR APP"*/
+#ads-subway>span{
+    margin: 6px 0;
+    font-size: 8px;
+}
+
+/*qr code*/
+#ads-subway .ads-qr-code{}
+#ads-subway .ads-qr-code li{
+    list-style: none;
+    float: left;
+    width: 26px;
+    margin-left: 12px;
+}
+#ads-subway .ads-qr-code li:first-of-type{
+    margin-left: 6px;
+}
+#ads-subway .ads-qr-code li img{
+    width: 100%;
+}
+#ads-subway .ads-qr-code li p{
+    display: block;
+    text-align: center;
+}
+
+/*END when press button*/
+
+
+/*START button css*/
+
+.ads-icon-a {
+    width: 0;
+    height: 0;
+    border-left: 4.5px solid transparent;
+    border-right: 4.5px solid transparent;
+    border-bottom: 9px solid #ecd406;
+    text-align: center;
+    line-height: 10px;
+}
+
+.ads-icon-a span {
+    margin-left: -2.7px;
+}
+
+.ads-icon-b {
+    width: 9px;
+    height: 9px;
+    background: #29b0ef;
+    text-align: center;
+    line-height: 9px;
+}
+
+.ads-icon-c {
+    width: 9px;
+    height: 9px;
+    border-radius: 50%;
+    background: #ff3e3c;
+    text-align: center;
+    line-height: 9px;
+}
+
+.ads-icon-d {
+    width: 9px;
+    height: 9px;
+    background: #21bb08;
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    transform: rotate(45deg);
+    text-align: center;
+    line-height: 9px;
+}
+
+.ads-icon-d span {
+    display: block;
+    -webkit-transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    -o-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+}
+
+.ads-btn-empty {
+    width: 76px;
+    height: 20px;
+    background-color: transparent;
+    border: 1px solid #046eb5;
+    border-radius: 3px;
+    color: #cdcdce;
+}
+
+.ads-btn-full {
+    width: 76px;
+    height: 20px;
+    border: none;
+    background-color: #046eb5;
+    border-radius: 3px;
+    color: #cdcdce;
+}
+
+/*close button*/
+.ads-icon-close {
+    position: relative;
+    display: inline-block;
+    width: 9px;
+    height: 9px;
+
+    border: 1px solid #046eb5;
+    border-radius: 50%;
+    color: #046eb5;
+}
+
+.ads-icon-close::before,
+.ads-icon-close::after {
+    content: '';
+    position: absolute;
+    height: 1px;
+    width: 80%;
+    top: 50%;
+    left: 0;
+    /*margin-top: -0.5px;*/
+    margin-top: 1px;
+    background: #046eb5;
+
+    right: 0;
+    margin: 0 auto;
+}
+
+.ads-icon-close::before {
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+.ads-icon-close::after {
+    -webkit-transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    -o-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+}
+
+.ads-icon-close span{
+    font-size: 8px;
+    padding-left: 13px;
+    position: relative;
+    /*top: -3.5px;*/
+    top:-5px;
+}
+
+
+/*END button css*/
+
+
+/*selected */
+
+.active {
+    box-shadow: 0 0 5px 3px #085283;
+    -webkit-box-shadow: 0 0 5px 3px #085283;
+}
+
+.close-red{
+    color: red !important;
+    border-color: red !important;
+}
+.close-red::before,
+.close-red::after{
+    background: red !important;
+}
